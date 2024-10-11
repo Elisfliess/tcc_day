@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+   
+    background-color: white;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem{
+    background-color: #ca25c2;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #FE775A;
+}
+
+header i{
+    font-size: 30px;
+    color: #000000;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #0e0d0d;
+    text-decoration: none;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #fe5afe;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+
+
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+
+  .logo1 {
+    height: 100px;
+    float: left;
+    cursor: pointer;
+    cursor: hand;
+  
+    background-repeat: no-repeat;
+}
+
+
+
+  @media only screen and (min-width: 767px) {
+    .mobile-banner {
+      display: none;
+    }
+  }
+
+
+/*caixa img*/
+
+
+
+
+
+/*footer*/
+
+@media screen and (min-width: 768px){
+    .rodape__logo {
+        width: 250px;
+        margin-top: 4.5px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .portal .p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.rodape-meio{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: inline-table;
+    width: 100%;
+}
+
+.rodape__logo{
+    width: 250px;
+    margin-top: 4.5px;
+    text-align: center;
+    align-items: center;
+    box-flex: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.texto-portal p {
+    color: #fff;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 10px 0 0;
+    margin: 15px auto;
+    width: 300px;
+}
+
+footer{
+    background-color:#ca25c2;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #415aca;
+    background-color: white;
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #415aca;
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #415aca;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
